@@ -1,63 +1,32 @@
 # Ex.No:1
 # Ex.Name:Write a C++ Program to read two sequence of character  value from the keyboard and display the value on the monitor?
-## Date:
-## Experiment No: 1 — Constructor Overloading in C++ (Polynomial Equation Display)
-## AIM
+## Date: 02-09-2025
+## Aim:
+To write a C++ program that reads two sequences of character values (strings) from the keyboard and displays them on the monitor.
 
-To write a C++ program to display polynomial equations using constructor overloading by passing coefficients during compile time.
+## Algorithm:
+1.Start the program.
 
-Here is the **summarized algorithm** with step numbers:
+2.Declare two string variables to store the character sequences.
 
----
+3.Read input from the user for both strings using cin.
 
-## ALGORITHM
+4.Display the values of the two strings using cout.
 
-1. Start the program.
-2. Define a class `Polynomial` with necessary data members.
-3. Overload two constructors for:
+5.Stop the program.
 
-   * Two-term polynomial (ax + b)
-   * Three-term polynomial (ax² + bx + c)
-4. Create objects in `main()` and pass coefficients during compile time.
-5. Display both polynomial equations.
-6. End the program.
-
-
-
-## PROGRAM
-```
-#include<iostream>
+## Program:
+#include <iostream>
 using namespace std;
-
-class Polynomial {
-    int a, b, c;
-
-public:
-    // Constructor for 2-term polynomial
-    Polynomial(int x, int y) {
-        a = x;
-        b = y;
-        cout << a << "x + " << b << endl;
-    }
-
-    // Constructor for 3-term polynomial
-    Polynomial(int x, int y, int z) {
-        a = x;
-        b = y;
-        c = z;
-        cout << a << "x^2 + " << b << "x + " << c << endl;
-    }
-};
-
-int main() {
-    Polynomial p1(95, 64);
-    Polynomial p2(22, 28, 21);
-    return 0;
+int main(){
+    string first,second;
+    cin >> first >> second;
+    
+    cout << "First Value is:" << first << endl;
+    cout << "Second Value is:" << second << endl;
 }
-```
-## OUTPUT
-<img width="1183" height="276" alt="image" src="https://github.com/user-attachments/assets/84cc27cb-e1aa-4203-9271-c8524ec139b0" />
+## Output:
+<img width="1189" height="460" alt="484040976-ae862f9c-4c87-4b61-9f3b-e356982d19a2" src="https://github.com/user-attachments/assets/9823cd4c-f627-4ad5-a543-5e8eae399d28" />
 
-## RESULT
-
-Thus, the C++ program to display polynomial equations using constructor overloading was executed and verified successfully.
+## Result:
+Thus the Program to read two sequence of character value from the keyboard and display the value on the monitor has been executed successfully
