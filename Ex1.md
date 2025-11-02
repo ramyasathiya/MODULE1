@@ -16,15 +16,18 @@ To write a C++ program that reads two sequences of character values (strings) fr
 5.Stop the program.
 
 ## Program:
+```
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     string first,second;
     cin >> first >> second;
     
     cout << "First Value is:" << first << endl;
     cout << "Second Value is:" << second << endl;
 }
+```
 ## Output:
 <img width="1189" height="460" alt="484040976-ae862f9c-4c87-4b61-9f3b-e356982d19a2" src="https://github.com/user-attachments/assets/9823cd4c-f627-4ad5-a543-5e8eae399d28" />
 
